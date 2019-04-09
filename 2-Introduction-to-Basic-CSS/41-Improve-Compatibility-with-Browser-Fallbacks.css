@@ -1,0 +1,14 @@
+/* This is another new thing I learned about CSS. I've not used : as a prefix in css before;  */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
